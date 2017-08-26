@@ -1,0 +1,79 @@
+
+Android A11y
+
+Krainz, 3.7.2017
+
+
+A11y General
+=============
+
+https://www.w3.org/TR/WCAG20/
+4 principles
+	perceivable (wahrnehmbar)
+	operable (bedienbar) 
+	understandable (verständlich)
+	robust (robust)
+
+
+gegliedert in 12 Richtlinien
+
+
+
+https://www.w3.org/TR/mobile-accessibility-mapping/
+
+WCAG -> Mobile
+
+
+
+Android Accessibility
+======================
+
+https://material.io/guidelines/usability/accessibility.html
+
+
+3 principles
+	clear, visible, hierarchy of importance
+	robust; different usages (e.g screen reader), Access features, navigation, 
+	specific: specific to the used platform (web, mobile, wearable) and specific assertive technology
+
+
+
+
+Evaluation of mobile Accessibly
+===============================
+
+	https://www.paciellogroup.com/blog/2015/10/accessibility-testing-with-android-talkback/
+
+	https://robots.thoughtbot.com/accessibility-testing-on-android
+	https://developer.android.com/training/accessibility/testing.html
+
+
+manual testing 
+	navigating, talkback, switch access
+
+
+	
+Accessibility Scanner
+	https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor
+	overview	
+		https://support.google.com/accessibility/android/answer/6376570
+
+
+
+
+Implementation of A11y on Android
+=================================
+
+https://developer.android.com/guide/topics/ui/accessibility/apps.html
+https://github.com/googlesamples/android-BasicAccessibility
+
+Update
+A11y EK -> Demo
+
+
+
+Android Accessibility Checklist
+===============================
+
+
+https://developer.android.com/guide/topics/ui/accessibility/checklist.html

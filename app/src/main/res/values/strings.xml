@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Accapto Accessibility Example</string>
+
+    <string name="speech_not_supported">keine spracheingabe</string>
+    <string name="speech_prompt">spracheingabe</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,108 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+
+<!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spracheingabe!"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/btnSpeechInput" />
+
+    <ImageButton
+        android:id="@+id/btnSpeechInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editSpeechInput"
+        android:background="@android:color/transparent"
+        android:contentDescription="tap to speak"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        android:layout_alignTop="@+id/editSpeechInput"
+        android:layout_alignParentEnd="true" />
+
+
+
+    
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editSpeechInput"
+        android:layout_marginTop="46dp"
+        android:text="Sprachausgabe"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnText2Speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:text="Speech Feedback" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TouchArea"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnText2Speech"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <CheckBox
+        android:id="@+id/chkSmallTouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="49dp"
+        android:text="small touch area" />
+
+    <!--<EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp" />
+        -->
+
+    <ToggleButton
+        android:id="@+id/btnStyleToogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/chkSmallTouch"
+        android:layout_marginTop="25dp"
+        android:text="ToggleButton"
+        android:textOff="Normal Style"
+        android:textOn="Alternative Style" />
+
+
+</RelativeLayout>
