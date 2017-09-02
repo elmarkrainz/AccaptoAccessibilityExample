@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:padding="3dp">
 
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,6 +98,9 @@
                 android:minHeight="48dp" />
 
 
+            <!-- Checkbox
+                - min height and width with 48dp for small touch areas
+                - text in text attribute             -->
             <CheckBox
                 android:id="@+id/checkBox"
                 android:layout_width="match_parent"
@@ -106,6 +108,11 @@
                 android:minHeight="48dp"
                 android:minWidth="48dp"
                 android:text="CheckBox " />
+
+
+
+            <!-- Checkbox with image
+                - text in contentDescription  -->
 
             <CheckBox
                 android:id="@+id/checkBoxImage"
@@ -116,6 +123,11 @@
                 android:minHeight="48dp"
                 android:minWidth="48dp" />
 
+
+
+            <!-- Radio
+            - min height and width with 48dp for small touch areas
+            - text in text attribute             -->
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -139,6 +151,7 @@
             </RadioGroup>
 
 
+
             <!-- Examples for outputs:          -->
 
             <TextView
@@ -154,6 +167,8 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="info accessibility"
                 app:srcCompat="@mipmap/ic_a11y_human" />
+
+
 
 
         </LinearLayout>
