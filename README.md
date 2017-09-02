@@ -43,6 +43,8 @@ This project is part of my Phd thesis on model-driven development for accessible
 
 Contact:
 --------
+This project is part of my Phd thesis on model-driven development for accessible mobile apps.
+
 Elmar Krainz
 elmar.krainz@fh-joanneum.at
 
