@@ -28,6 +28,93 @@
 
 
 
+
+    <!--Theme gelb-schwarz-->
+    <!-- Buttons gelb mit scharzer Schrift und
+    Auswahlmöglichkeiten blau mit weißer Schrift.
+    Schwarzer Hintergrund, schwarze Textfarbe; große Schrift -->
+    <style name="pons.defect" parent="AppTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/global_black_color</item>
+        <item name="android:textSize">26dp</item>
+        <!--Aufruf der weiteren Elemente -->
+        <item name="android:buttonStyle">@style/pons.defect.button</item>
+        <item name="android:radioButtonStyle">@style/pons.defect.radiobutton</item>
+        <item name="android:buttonStyleToggle">@style/pons.defect.togglebutton</item>
+        <item name="android:checkboxStyle">@style/pons.defect.checkbox</item>
+        <item name="android:datePickerStyle">@style/pons.defect.datepicker</item>
+        <!--Setzt die Größe der Titlebar so, dass man sie lesen kann-->
+        <item name="android:windowTitleSize">35dp</item>
+    </style>
+
+    <!--Definition der anderen Elemente
+        WICHTIG: auf Parent achten, da sonst nichts funktioniert -->
+
+    <!--Style button -->
+    <style name="pons.defect.button" parent="@android:style/Widget.Button">
+        <!--    <item name="android:background">@drawable/defect_buttonstyle</item>-->
+
+        <item name="android:textColor">@color/global_black_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:buttonStyle">@style/pons.defect.button</item>
+    </style>
+
+    <!--style radiobutton-->
+    <style name="pons.defect.radiobutton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/defect_buttonstyle_other_buttons</item>
+        <item name="android:textColor">@color/global_black_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:typeface">monospace</item>
+        <!-- Die Bilder für den Button hinzufügen -->
+        <item name="android:button">@drawable/blind_defect_radio_button_settings_picture</item>
+        <item name="android:buttonStyle">@style/pons.defect.radiobutton</item>
+    </style>
+
+    <!--Style Togglebutton-->
+    <style name="pons.defect.togglebutton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/defect_buttonstyle_other_buttons</item>
+        <item name="android:textColor">@color/global_black_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:buttonStyle">@style/pons.defect.togglebutton</item>
+    </style>
+
+    <!--Style Checkbox-->
+    <style name="pons.defect.checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/defect_buttonstyle_other_buttons</item>
+        <item name="android:textColor">@color/global_black_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:typeface">monospace</item>
+        <!-- Die Bilder für den Button hinzufügen -->
+        <item name="android:button">@drawable/blind_defect_checkbox_settings_picture</item>
+        <item name="android:buttonStyle">@style/pons.defect.checkbox</item>
+    </style>
+
+    <!--Style Datepicker-->
+    <style name="pons.defect.datepicker" parent="android:Widget.DatePicker">
+        <item name="android:background">@drawable/defect_buttonstyle_other_buttons</item>
+        <item name="android:textColor">@color/global_white_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:buttonStyle">@style/pons.defect.datepicker</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
